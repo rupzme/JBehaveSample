@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="sample.TraderAnnotatedEmbedder" tests="1" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="Rupert-Andersons-MacBook-Pro.local" time="1.400691260966E9">
+  <properties/>
+  <testcase name="run" classname="sample.TraderAnnotatedEmbedder" time="0.709"/>
+  <system-out><![CDATA[Processing system properties {}
+Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=true,ignoreFailureInView=true,verboseFailures=false,verboseFiltering=false,storyTimeoutInSecs=300,failOnStoryTimeout=false,threads=1]
+
+(BeforeStories)
+
+
+(AfterStories)
+
+Generating reports view to '/Users/bearsoftware/Documents/workspace-sts-webservices/jbehave-sample/target/jbehave' using formats '[console, txt, html, xml, stats]' and view properties '{navigator=ftl/jbehave-navigator.ftl, views=ftl/jbehave-views.ftl, reports=ftl/jbehave-reports-with-totals.ftl, nonDecorated=ftl/jbehave-report-non-decorated.ftl, decorated=ftl/jbehave-report-decorated.ftl, maps=ftl/jbehave-maps.ftl}'
+Reports view generated with 0 stories (of which 0 pending) containing 0 scenarios (of which 0 pending)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

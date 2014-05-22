@@ -1,0 +1,16 @@
+<story path="stories/sample.story" title="">
+<scenario keyword="Scenario:" title="trader is not alerted below threshold">
+<step outcome="successful">Given a stock of symbol <parameter>STK1</parameter> and a threshold of <parameter>10.0</parameter></step>
+<step outcome="successful">When the stock is traded at <parameter>5.0</parameter></step>
+<step outcome="failed" keyword="FAILED">Then the alert status should be <parameter>OFF</parameter><failure>java.lang.AssertionError: 
+Expected: &quot;OFF&quot;
+     but: was &quot;&quot;</failure></step>
+</scenario>
+<scenario keyword="Scenario:" title="trader is alerted above threshold">
+<step outcome="successful">Given a stock of symbol <parameter>STK1</parameter> and a threshold of <parameter>10.0</parameter></step>
+<step outcome="successful">When the stock is traded at <parameter>11.0</parameter></step>
+<step outcome="failed" keyword="FAILED">Then the alert status should be <parameter>ON</parameter><failure>java.lang.AssertionError: 
+Expected: &quot;ON&quot;
+     but: was &quot;&quot;</failure></step>
+</scenario>
+</story>

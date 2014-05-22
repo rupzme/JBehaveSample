@@ -1,0 +1,20 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/sample.story</div>
+<div class="scenario">
+<h2>Scenario: trader is not alerted below threshold</h2>
+<div class="step successful">Given a stock of symbol <span class="step parameter">STK1</span> and a threshold of <span class="step parameter">10.0</span></div>
+<div class="step successful">When the stock is traded at <span class="step parameter">5.0</span></div>
+<div class="step failed">Then the alert status should be <span class="step parameter">OFF</span> <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.AssertionError: 
+Expected: &quot;OFF&quot;
+     but: was &quot;&quot;</span></div>
+</div>
+<div class="scenario">
+<h2>Scenario: trader is alerted above threshold</h2>
+<div class="step successful">Given a stock of symbol <span class="step parameter">STK1</span> and a threshold of <span class="step parameter">10.0</span></div>
+<div class="step successful">When the stock is traded at <span class="step parameter">11.0</span></div>
+<div class="step failed">Then the alert status should be <span class="step parameter">ON</span> <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.AssertionError: 
+Expected: &quot;ON&quot;
+     but: was &quot;&quot;</span></div>
+</div>
+</div>
