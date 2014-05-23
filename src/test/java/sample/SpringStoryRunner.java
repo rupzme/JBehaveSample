@@ -40,7 +40,7 @@ public class SpringStoryRunner extends JUnitStories {
 						new StoryReporterBuilder()
 								.withCodeLocation(
 										codeLocationFromClass(this.getClass()))
-								.withFormats(Format.HTML, Format.IDE_CONSOLE)
+								.withFormats(Format.HTML, Format.CONSOLE)
 								.withDefaultFormats());
 	}
 

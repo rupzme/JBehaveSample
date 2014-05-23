@@ -26,6 +26,8 @@ dependencies {
     compile 'commons-collections:commons-collections:3.2'
 	compile 'org.springframework:spring-core:4.0.4.RELEASE'
 	compile 'org.springframework:spring-context:4.0.4.RELEASE'
+	compile 'org.springframework:spring-web:4.0.4.RELEASE'
+	compile 'org.apache.cxf:cxf-rt-rs-client:3.0.0-milestone2'
 	
 	testCompile 'org.jbehave:jbehave-core:3.9.2'
 	testCompile 'de.codecentric:jbehave-junit-runner:1.1.0'
