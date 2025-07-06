@@ -28,4 +28,3 @@ Basic JBehave Example - 3 Different Runner Styles &amp; Simple Story & Simple RE
 *TIPS*
 
 * If you make new story steps make sure they are on the spring application context when using the SpringStoryRunner e.g. annotate with @Component
-
